@@ -1,6 +1,6 @@
 const products = [
   {
-    _id: '1',
+    
     name: '苹果12 mini 64G',
     image: '/images/demo.jpg',
     description: '万千人为之疯狂',
@@ -12,7 +12,7 @@ const products = [
     numReviews: 5, 
   },
   {
-    _id: '2',
+
     name: '苹果12 mini 64G',
     image: '/images/demo.jpg',
     description: '万千人为之疯狂',
@@ -24,7 +24,7 @@ const products = [
     numReviews: 5, 
   },
   {
-    _id: '3',
+
     name: '苹果12 mini 64G',
     image: '/images/demo.jpg',
     description: '万千人为之疯狂',
@@ -36,7 +36,7 @@ const products = [
     numReviews: 5, 
   },
   {
-    _id: '4',
+
     name: '苹果12 mini 64G',
     image: '/images/demo.jpg',
     description: '万千人为之疯狂',
@@ -49,4 +49,4 @@ const products = [
   }
 ]
 
-export default products;
+export default products ;
