@@ -8,6 +8,8 @@ const router = express.Router();
 //@access  公开
 router.get('/',asyncHandler( async (req,res) => {
   const products = await Product.find({});
+  // res.status(401);
+  // throw new Error('没有权限');
   res.json(products);
 }));
 //@desc    请求单个产品
